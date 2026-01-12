@@ -220,14 +220,14 @@ spline-viewer {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
 }
-
 .project-card {
     background: var(--card-bg);
     border-radius: 16px;
-    overflow: hidden;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    cursor: pointer;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project-card:hover {
