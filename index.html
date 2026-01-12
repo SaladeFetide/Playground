@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Squelette</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.32/build/spline-viewer.js"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <img src="assets/img/logo.svg" alt="Logo" class="logo-img">
+            Riquoir Louka
+        </div>
+        <ul class="nav-links">
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#skills">Compétences</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-label">Portfolio 2026</div>
+                <h1 class="hero-title">
+                    Créateur d'expériences digitales
+                </h1>
+                <p class="hero-subtitle">
+                    Je conçois et développe des jeux vidéo et applications qui repoussent les limites de l'interactivité
+                </p>
+                <a href="#projets" class="hero-cta">
+                    Découvrir mes projets
+                    <span>→</span>
+                </a>
+            </div>
+            <div class="hero-visual" style="background: none;">
+                <spline-viewer url="https://prod.spline.design/93G1gLPogZLiZFdV/scene.splinecode"></spline-viewer>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projets">
+        <div class="section-header reveal">
+            <h2 class="section-title">Projets récents</h2>
+            <div class="section-filter">
+                <button class="filter-btn">Tous</button>
+                <button class="filter-btn">Jeux</button>
+                <button class="filter-btn">Apps</button>
+            </div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card large reveal delay-100">
+                <div class="project-image">
+                    <img src="assets/img/visual1.svg" alt="Projet Principal"
+                        style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Jeu vidéo</div>
+                    <h3 class="project-title">Nom du projet principal</h3>
+                    <p class="project-description">
+                        Description courte et engageante du projet qui donne envie d'en savoir plus
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Multijoueur</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal delay-200">
+                <div class="project-image">
+                    [VISUEL PROJET 800x500px]
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Application</div>
+                    <h3 class="project-title">Nom du projet</h3>
+                    <p class="project-description">
+                        Une application innovante qui résout un problème spécifique
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal delay-300">
+                <div class="project-image">
+                    [VISUEL PROJET 800x500px]
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Jeu mobile</div>
+                    <h3 class="project-title">Nom du projet</h3>
+                    <p class="project-description">
+                        Un jeu mobile addictif avec des mécaniques uniques
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Godot</span>
+                        <span class="tag">Mobile</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal delay-200">
+                <div class="project-image">
+                    [VISUEL PROJET 800x500px]
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Outil</div>
+                    <h3 class="project-title">Nom du projet</h3>
+                    <p class="project-description">
+                        Un outil qui améliore le workflow des développeurs
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal delay-300">
+                <div class="project-image">
+                    [VISUEL PROJET 800x500px]
+                </div>
+                <div class="project-info">
+                    <div class="project-category">Expérimental</div>
+                    <h3 class="project-title">Nom du projet</h3>
+                    <p class="project-description">
+                        Une expérience interactive explorant de nouveaux concepts
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">WebGL</span>
+                        <span class="tag">Three.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <h2 class="section-title reveal">Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill-card reveal delay-100">
+                <div class="skill-icon"><img src="assets/img/game_design.png" alt="Game Design"></div>
+                <h3 class="skill-title">Game Design</h3>
+                <p class="skill-description">
+                    Conception de mécaniques de jeu, level design et game economy
+                </p>
+            </div>
+            <div class="skill-card reveal delay-200">
+                <div class="skill-icon"><img src="assets/img/developpement.png" alt="Développement"></div>
+                <h3 class="skill-title">Développement</h3>
+                <p class="skill-description">
+                    Unity, Godot, React, Node.js et technologies web modernes
+                </p>
+            </div>
+            <div class="skill-card reveal delay-300">
+                <div class="skill-icon"><img src="assets/img/UI_UX.png" alt="UI/UX"></div>
+                <h3 class="skill-title">UI/UX Design</h3>
+                <p class="skill-description">
+                    Interfaces intuitives et expériences utilisateur mémorables
+                </p>
+            </div>
+            <div class="skill-card reveal delay-400">
+                <div class="skill-icon"><img src="assets/img/3D.png" alt="3D"></div>
+                <h3 class="skill-title">3D & Animation</h3>
+                <p class="skill-description">
+                    Modélisation 3D, animations et effets visuels avec Blender
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container reveal">
+            <div class="about-image">
+                <img src="assets/img/illustration.svg" alt="Portrait"
+                    style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div class="about-content">
+                <h2>Passionné par l'innovation</h2>
+                <p class="about-text">
+                    Développeur et designer avec une passion pour la création d'expériences digitales uniques.
+                    Je combine créativité et technique pour donner vie à des projets ambitieux qui repoussent
+                    les limites de l'interactivité.
+                </p>
+                <p class="about-text">
+                    Chaque projet est une opportunité d'apprendre, d'expérimenter et de créer quelque chose
+                    qui marque les esprits.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projets réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Années d'expérience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10k+</div>
+                        <div class="stat-label">Utilisateurs</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container reveal">
+            <h2 class="contact-title">Un projet en tête ?</h2>
+            <p class="contact-subtitle">
+                Discutons de votre idée et créons quelque chose d'extraordinaire ensemble
+            </p>
+            <div class="contact-links">
+                <a href="mailto:votre@email.com" class="contact-link">
+                    Envoyez un email
+                    <span>→</span>
+                </a>
+                <a href="#" class="contact-link">
+                    LinkedIn
+                    <span>→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <img src="assets/img/logo.svg" alt="Logo" class="logo-img">
+                Riquoir Louka
+            </div>
+            <div class="footer-links">
+                <a href="#projets">Projets</a>
+                <a href="#skills">Compétences</a>
+                <a href="#about">À propos</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 - Fait avec passion
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Spline Viewer Logic ---
+            const viewer = document.querySelector('spline-viewer');
+
+            if (viewer) {
+                // 1. Désactiver le zoom de Spline (Méthode Capture sur le composant parent)
+                // On intercepte l'événement avant qu'il n'arrive au canvas de Spline
+                viewer.addEventListener('wheel', (e) => {
+                    if (e.ctrlKey) return; // Accessibilité : zoom autorisé si CTRL maintenu
+                    e.stopPropagation(); // Empêche l'événement d'atteindre le script de Spline
+                    // On ne met PAS preventDefault() ici pour laisser la page scroller
+                }, { capture: true });
+
+                // 2. Masquer le logo (Injection CSS dans Shadow DOM)
+                let logoRemoved = false;
+                const interval = setInterval(() => {
+                    if (viewer.shadowRoot) {
+                        if (!logoRemoved && !viewer.shadowRoot.querySelector('#hide-logo-style')) {
+                            const style = document.createElement('style');
+                            style.id = 'hide-logo-style';
+                            style.textContent = '#logo { display: none !important; }';
+                            viewer.shadowRoot.appendChild(style);
+                            logoRemoved = true;
+
+                            // Une fois le logo masqué, on révèle le viewer
+                            viewer.style.opacity = '1';
+                            clearInterval(interval);
+                        }
+                    }
+                }, 50);
+
+                // Sécurité : arrêt de la recherche du logo après 4s
+                setTimeout(() => {
+                    clearInterval(interval);
+                    viewer.style.opacity = '1';
+                }, 4000);
+            }
+
+            // --- Scroll Reveal Logic (Awwwards Style) ---
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: "0px 0px -50px 0px"
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target); // Only animate once
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal').forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+
+</html>
